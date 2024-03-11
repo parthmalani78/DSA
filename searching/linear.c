@@ -19,7 +19,8 @@ int main()
     
   }
 
-  printf("Enter a number to search\n");
+  printf("Enter a number to search\n"); 
+  
   scanf("%d", &search);
 
   for (i = 0; i < n; i++)
@@ -32,7 +33,7 @@ int main()
   }
   if (i == n)
   {
-    printf("%d this isn't present in the arra.\n", search);
+    printf("%d this is not present in the arra.\n", search);
   }
 
   return 0;
