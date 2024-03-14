@@ -4,7 +4,7 @@ void sort()
 {
     int i, j, n, k;
 
-    printf("enter the number of elemwnt:- ");
+    printf("enter the number of element:- ");
     scanf("%d", &n);
 
     int arr[n];
